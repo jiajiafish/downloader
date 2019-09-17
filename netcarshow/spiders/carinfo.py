@@ -5,7 +5,7 @@ from copy import deepcopy
 import json
 import re
 from ..items import NetcarshowItem
-from fake_useragent import UserAgent
+# from fake_useragent import UserAgent
 import random
 from ..user_agents import getheaders
 class CarinfoSpider(scrapy.Spider):
